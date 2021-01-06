@@ -1,0 +1,7 @@
+# Step 1. you need to install awscli
+pip3 install awscli
+
+# Step 2. Configure your user
+aws configure --profile root, aws configure --profile ec2user, aws configure --profile s3user ... etc.
+
+- you need access key, secret access key, default region to provide as information from the aws console and defaut output format (you can put that as "json".
